@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: snow;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+    margin: 0px auto;
+}
+
+main {
+    max-width: 75%;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li {
+    margin: 5px;
+}
+
+.example{
+    font-size: 1rem;
+    padding-left: 30px; 
+}
+
+.row{
+    padding: 20px;
+}
+
+.form-control{
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#error-container{
+    background-color: #FF7C7B;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+#result-container{
+    background-color: #7FFFD4; 
+    margin-top: 10px;
+}
+
+#results-container{
+    margin-top: 30px;
+}
+
+.is-palindrome{
+    background-color: #1FFFFA;
+}
+
+.not-palindrome{
+    background-color: #FF0000;
+}
+
+.hidden{
+    display:none;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: snow;
+}
