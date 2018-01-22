@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: snow;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+    margin: 0px auto;
+}
+
+main {
+    max-width: 75%;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table {
+  margin: 40px;
+  border-collapse: collapse;
+}
+
+table tr th, table tr td { 
+  border:1px solid darkgrey; 
+  padding: 10px;
+}
+
+th {
+  width: 200px;
+}
+
+.login {
+  width: 800px;
+  padding: 20% 0 0;
+  margin: auto;
+}
+
+.form-container{
+  position: relative;
+  z-index: 1;
+  background: snow;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-control{
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#error-container{
+    color: #FF7C7B;
+    margin-bottom: 10px;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: snow;
+}
